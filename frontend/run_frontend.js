@@ -11,6 +11,11 @@ app.get('/', (req, res) => {
     res.send('Ran from run_frontend.js');
 })
 
+app.get('/to-do_list', (req, res) => {
+    console.log('Ran from .get for to-do_list.');
+    res.render('list_display');
+})
+
 // Start the server on port 3000
 app.listen(3000, () => {
     console.log('Server is running on http://localhost:3000');
