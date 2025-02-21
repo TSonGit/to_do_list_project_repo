@@ -1,0 +1,14 @@
+/* This will be the styling reference for list_display.ejs. */
+
+body {
+    background-color: rgb(43, 40, 40);
+}
+
+h1 {
+    color: white;
+    text-shadow: rgb(63, 63, 255);
+}
+
+p {
+    color: rgb(29, 238, 39);
+}

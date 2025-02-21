@@ -1,0 +1,21 @@
+Notes:
+
+Functionality:
+1. Add function to add tasks. (Bullet-point, describes task, date due, etc.)
+2. Add function to remove tasks. (Removes tasks from task-board)
+3. Add function to update dates/tasks as needed.
+4. Display overdue tasks at the top of the board.
+
+
+Styling:
+1. Black and Green theme. (Darkmode, green text)
+2. Tasks that are overdue should become RED, and display how late they are.
+
+
+Abstract/Complex:
+1. Tasks should be ordered by priority. (Late, Next due? Or allow user to check as priority?)
+    -1.1 Initial thought is allow user to mark as High|Medium|Low Priority, and then sort by due date.
+2. Add Categories for tasks. (Life, School, Work, etc.)
+3. Include Progress tracker? (Daily, weekly?)
+    -3.1 Add daily/weekly/monthly tasks||checklist?
+4. Add positive reinforcement for completing tasks. (API for congralutory messages?)
