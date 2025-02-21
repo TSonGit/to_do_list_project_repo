@@ -7,4 +7,4 @@ could see myself using. This is also a challenge to remind myself of how the int
 come together to create a webpage. 
 
 # Design Ideas
-My design ideas and potential functionality is logged in my [Notes](https://github.com/TSonGit/to_do_list_project_repo/blob/main/notes.txt).
+My design ideas and potential functionality are logged in my [Notes](https://github.com/TSonGit/to_do_list_project_repo/blob/main/notes.txt).
