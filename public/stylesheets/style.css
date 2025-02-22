@@ -10,5 +10,9 @@ h1 {
 }
 
 p {
+    color: lightblue;
+}
+
+li {
     color: rgb(29, 238, 39);
 }

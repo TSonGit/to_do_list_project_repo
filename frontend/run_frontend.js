@@ -2,6 +2,8 @@ const express = require('express');
 const { name } = require('ejs');
 const app = express();
 
+const helper = require('../public/javascript/helper');
+
 //Sets up the view for port 3000.
 app.set('view engine', 'ejs');
 
@@ -16,7 +18,8 @@ app.get('/', (req, res) => {
 
 app.get('/to-do_list', (req, res) => {
     console.log('Ran from .get for to-do_list.');
-    res.render('list_display');
+    res.render('list_display', { helper:helper });
+    console.log('Past the render here!')
 })
 
 // Start the server on port 3000
