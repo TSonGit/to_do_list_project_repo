@@ -5,6 +5,7 @@ Functionality:
 2. Add function to remove tasks. (Removes tasks from task-board)
 3. Add function to update dates/tasks as needed.
 4. Display overdue tasks at the top of the board.
+5. Add function to show a pop down displaying description, allowing deletion, and allowing completion of task. (div display:none => enable/disable in css.)
 
 
 Styling:
@@ -19,3 +20,12 @@ Abstract/Complex:
 3. Include Progress tracker? (Daily, weekly?)
     -3.1 Add daily/weekly/monthly tasks||checklist?
 4. Add positive reinforcement for completing tasks. (API for congralutory messages?)
+
+
+Potential libraries:
+Angular.js
+Vue.js
+React.js
+
+Last time:
+Worked with the helper.js file. Got RefError: helper is not defined. on button click. Needs fixed;

@@ -1,8 +1,7 @@
 const express = require('express');
 const { name } = require('ejs');
+const path = require('path');
 const app = express();
-
-const helper = require('../public/javascript/helper');
 
 //Sets up the view for port 3000.
 app.set('view engine', 'ejs');
@@ -14,13 +13,13 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     console.log('Ran for a test.');
     res.send('Ran from run_frontend.js');
-})
+});
 
 app.get('/to-do_list', (req, res) => {
     console.log('Ran from .get for to-do_list.');
-    res.render('list_display', { helper:helper });
+    res.render('list_display');
     console.log('Past the render here!')
-})
+});
 
 // Start the server on port 3000
 app.listen(3000, () => {
