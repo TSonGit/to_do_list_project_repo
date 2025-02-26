@@ -5,14 +5,39 @@ body {
 }
 
 h1 {
-    color: white;
-    text-shadow: rgb(63, 63, 255);
+    color: rgb(29, 238, 39);
+}
+
+h2 {
+    color: rgb(243, 25, 25);
 }
 
 p {
-    color: lightblue;
+    color: rgb(135, 217, 245);
 }
 
-li {
+ul > li {
     color: rgb(29, 238, 39);
+    text-decoration: underline;
+}
+
+li > div {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(83, 81, 81);
+
+    padding: 3px;
+}
+
+div > p {
+    color: rgb(29, 238, 39);
+}
+
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
 }
